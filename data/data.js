@@ -5,7 +5,7 @@ export let jobs = [
         id: "s35sds82",
         name: "Office - Feuerlöscher austauschen",
         status: "zugewiesen",
-        buildingID: "ba1jcC2",
+        buildingId: "ba1jcC2",
         buildingAddress: "Musterstraße 1, 12345 Musterstadt",
         buildingImage: "20240905172936_1.jpg",
         route: [
@@ -45,7 +45,7 @@ export let jobs = [
         id: "s3rsds83",
         name: "Office - Feuerlöscher reparieren",
         status: "zugewiesen",
-        buildingID: "ba1jcC2",
+        buildingId: "ba1jcC2",
         buildingAddress: "Musterstraße 1, 12345 Musterstadt",
         buildingImage: "20240905172936_1.jpg",
         route: [

@@ -137,7 +137,7 @@ router.post('/routeImage', (req, res) => {
             res.status(404).send('job not found');
             return;
         }
-        const buildingId = job.buildingID;
+        const buildingId = job.buildingId;
 
         const buildingPath = path.join(__dirname, '..', 'data', 'images', buildingId);
 
