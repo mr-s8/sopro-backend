@@ -164,4 +164,27 @@ router.post('/routeImage', (req, res) => {
     }
 });
 
+
+router.post('/finishJob', (req, res) => {
+    const { username, password, job } = req.body; // Authentifizierungsdaten aus dem Body
+
+    // Finde den Benutzer
+    const user = users.find(u => u.name === username && u.password === password);
+
+    if (user) {
+
+        // normalerweise checken ob der job überhaupt dem user zugewiesen war
+        // dann job status zugewiesen zu zuweisbar ändern
+        // dann eintrag aus assignes jobs löschen
+        // dann objekt mit allen kommentaren undso der completedJobs liste anfügen.
+
+        return res.status(200).send('Unauthorized');
+
+
+    } else {
+        // Wenn der Benutzer nicht authentifiziert ist
+        return res.status(401).json({ 'success': true });
+    }
+});
+
 export const appRoutes = router;
