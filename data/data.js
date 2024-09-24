@@ -8,6 +8,7 @@ export let jobs = [
         buildingId: "ba1jcC2",
         buildingAddress: "Musterstraße 1, 12345 Musterstadt",
         buildingImage: "20240905172936_1.jpg",
+        buildingMapImage: "20247921173450_1.jpg",
         route: [
             {
                 id: "20240905172936_1",
@@ -48,6 +49,7 @@ export let jobs = [
         buildingId: "ba1jcC2",
         buildingAddress: "Musterstraße 1, 12345 Musterstadt",
         buildingImage: "20240905172936_1.jpg",
+        buildingMapImage: "20247921173450_1.jpg",
         route: [
             {
                 id: "20240905172936_1",
@@ -88,6 +90,7 @@ export let jobs = [
         buildingId: "ba1jcC2",
         buildingAddress: "Musterstraße 1, 12345 Musterstadt",
         buildingImage: "20240905172936_1.jpg",
+        buildingMapImage: "20247921173450_1.jpg",
         route: [
             {
                 id: "20240905172936_1",
@@ -164,7 +167,8 @@ export let buildings = [
     {
         id: "ba1jcC2",
         address: "Musterstraße 1, 12345 Musterstadt",
-        buildingImage: "20240905172936_1.jpg"
+        buildingImage: "20240905172936_1.jpg",
+        buildingMapImage: "20247921173450_1.jpg",
     }
 ]
 

@@ -187,4 +187,37 @@ router.post('/finishJob', (req, res) => {
     }
 });
 
+
+router.post('/map', (req, res) => {
+    const { username, password, buildingId } = req.body; // Authentifizierungsdaten aus dem Body
+
+    // Finde den Benutzer
+    const user = users.find(u => u.name === username && u.password === password);
+
+    if (user) {
+        const buildingMapImage = getMapImageByBuildingId(buildingId);
+        const buildingPath = path.join(__dirname, '..', 'data', 'images', buildingId);
+
+        const filePath = path.join(buildingPath, buildingMapImage);
+
+        console.log(filePath)
+        if (fs.existsSync(filePath)) {
+            // Wenn die Datei existiert, sende sie und setze fileFound auf true
+            res.sendFile(filePath);
+        } else {
+            res.status(404).send('File not found');
+        }
+    } else {
+        // Wenn der Benutzer nicht authentifiziert ist
+        res.status(401).send('Unauthorized');
+    }
+});
+
+function getMapImageByBuildingId(buildingId) {
+    const building = buildings.find(b => b.id === buildingId);
+    console.log("building map image", building.buildingMapImage);
+    return building ? building.buildingMapImage : null;
+}
+
+
 export const appRoutes = router;
