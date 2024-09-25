@@ -9,6 +9,7 @@ export let jobs = [
         buildingAddress: "Musterstraße 1, 12345 Musterstadt",
         buildingImage: "20240905172936_1.jpg",
         buildingMapImage: "20247921173450_1.jpg",
+        priority: false,
         route: [
             {
                 id: "20240905172936_1",
@@ -50,6 +51,7 @@ export let jobs = [
         buildingAddress: "Musterstraße 1, 12345 Musterstadt",
         buildingImage: "20240905172936_1.jpg",
         buildingMapImage: "20247921173450_1.jpg",
+        priority: false,
         route: [
             {
                 id: "20240905172936_1",
@@ -91,6 +93,7 @@ export let jobs = [
         buildingAddress: "Musterstraße 1, 12345 Musterstadt",
         buildingImage: "20240905172936_1.jpg",
         buildingMapImage: "20247921173450_1.jpg",
+        priority: true,
         route: [
             {
                 id: "20240905172936_1",
