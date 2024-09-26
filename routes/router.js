@@ -178,12 +178,13 @@ router.post('/finishJob', (req, res) => {
         // dann eintrag aus assignes jobs löschen
         // dann objekt mit allen kommentaren undso der completedJobs liste anfügen.
 
-        return res.status(200).send('Unauthorized');
+        return res.status(200).json({ 'success': true });
 
 
     } else {
         // Wenn der Benutzer nicht authentifiziert ist
-        return res.status(401).json({ 'success': true });
+        return res.status(401).send('Unauthorized');
+
     }
 });
 
