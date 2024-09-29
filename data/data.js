@@ -15,31 +15,36 @@ export let jobs = [
                 id: "20240905172936_1",
                 routeImage: "20240905172936_1.jpg",
                 type: "path",
-                description: "Geh zum Haupteingang."
+                description: "Geh zum Haupteingang.",
+                position: 1,
             },
             {
                 id: "20240905172948_1",
                 routeImage: "20240905172948_1.jpg",
                 type: "path",
-                description: "Geh die Treppen hoch."
+                description: "Geh die Treppen hoch.",
+                position: 2,
             },
             {
                 id: "20240905173008_1",
                 routeImage: "20240905173008_1.jpg",
                 type: "path",
-                description: "Gehe den rechten Gang entlang."
+                description: "Gehe den rechten Gang entlang.",
+                position: 3,
             },
             {
                 id: "20240905173028_1",
                 routeImage: "20240905173028_1.jpg",
                 type: "path",
-                description: "Gehe geradeaus."
+                description: "Gehe geradeaus.",
+                position: 4,
             },
             {
                 id: "20240905173057_1",
                 routeImage: "20240905173057_1.jpg",
                 type: "object",
-                description: "Tausche Feuerlöscher."
+                description: "Tausche Feuerlöscher.",
+                position: 5,
             },
         ]
     },
@@ -57,31 +62,36 @@ export let jobs = [
                 id: "20240905172936_1",
                 routeImage: "20240905172936_1.jpg",
                 type: "path",
-                description: "Geh zum Haupteingang."
+                description: "Geh zum Haupteingang.",
+                position: 1,
             },
             {
                 id: "20240905172948_1",
                 routeImage: "20240905172948_1.jpg",
                 type: "path",
-                description: "Geh die Treppen hoch."
+                description: "Geh die Treppen hoch.",
+                position: 2,
             },
             {
                 id: "20240905173008_1",
                 routeImage: "20240905173008_1.jpg",
                 type: "path",
-                description: "Gehe den rechten Gang entlang."
+                description: "Gehe den rechten Gang entlang.",
+                position: 3,
             },
             {
                 id: "20240905173028_1",
                 routeImage: "20240905173028_1.jpg",
                 type: "path",
-                description: "Gehe geradeaus."
+                description: "Gehe geradeaus.",
+                position: 4,
             },
             {
                 id: "20240905173057_1",
                 routeImage: "20240905173057_1.jpg",
                 type: "object",
-                description: "Repariere Feuerlöscher."
+                description: "Repariere Feuerlöscher.",
+                position: 5,
             },
         ]
     },
@@ -95,47 +105,55 @@ export let jobs = [
         buildingMapImage: "20247921173450_1.jpg",
         priority: true,
         route: [
-            {
-                id: "20240905172936_1",
-                routeImage: "20240905172936_1.jpg",
-                type: "path",
-                description: "Geh zum Haupteingang."
-            },
+
             {
                 id: "20240905172948_1",
                 routeImage: "20240905172948_1.jpg",
                 type: "path",
-                description: "Geh die Treppen hoch."
+                description: "Geh die Treppen hoch.",
+                position: 2,
             },
             {
                 id: "20240905173008_1",
                 routeImage: "20240905173008_1.jpg",
                 type: "path",
-                description: "Gehe den rechten Gang entlang."
+                description: "Gehe den rechten Gang entlang.",
+                position: 3,
             },
             {
                 id: "20240905173028_1",
                 routeImage: "20240905173028_1.jpg",
                 type: "path",
-                description: "Gehe geradeaus."
+                description: "Gehe geradeaus.",
+                position: 4,
             },
             {
                 id: "20240905173057_1",
                 routeImage: "20240905173057_1.jpg",
                 type: "object",
-                description: "Tausche Feuerlöscher."
+                description: "Tausche Feuerlöscher.",
+                position: 5,
+            },
+            {
+                id: "20240905172936_1",
+                routeImage: "20240905172936_1.jpg",
+                type: "path",
+                description: "Geh zum Haupteingang.",
+                position: 1,
             },
             {
                 id: "20240905173104_1",
                 routeImage: "20240905173104_1.jpg",
                 type: "path",
-                description: "Gehe nach links."
+                description: "Gehe nach links.",
+                position: 6,
             },
             {
                 id: "20240905173715_1",
                 routeImage: "20240905173715_1.jpg",
                 type: "object",
-                description: "Teste neuen Feuerlöscher."
+                description: "Teste neuen Feuerlöscher.",
+                position: 7,
             },
         ]
     },
